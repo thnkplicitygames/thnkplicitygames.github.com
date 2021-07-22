@@ -124,6 +124,10 @@ header {
   align-items: center;
 }
 
+.logo-icon{
+  width: 3rem;
+}
+
 /* css-phone */
 
 .phone {
