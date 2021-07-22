@@ -22,6 +22,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   padding: 1rem;
