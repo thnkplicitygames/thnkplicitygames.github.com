@@ -1,0 +1,489 @@
+/* =======================================================
+                  GENERAL CSS
+==========================================================
+*/
+:root {
+  --bg-color: #303030;
+  --fg-color: #fff;
+  --highlight-color: #b5433b;
+  --highlight-shade-one: #E8A19B;
+  --highlight-shade-two: #E86056;
+  --highlight-shade-three: #9C403A;
+  --highlight-shade-four: #885e5b;
+}
+
+
+/* =======================================================
+                  BOOTSTRAP MEDIA QUERIES
+==========================================================
+*/
+
+/* Large devices (Desktops and laptops)*/
+
+@media(min-width: 1200px){
+
+}
+
+/* Medium devices (Landscape tablets and medium desktops)*/
+@media(min-width:992px) and (max-width:1199px){
+
+
+  #home-quizwhat-bg-diagonal{
+  width: 55%;
+  }
+
+  #home-quizwhat-pro-bg-diagonal{
+    width: 55%;
+  }
+
+
+
+#home-quizwhat-pro-content-box-inner{
+  padding-right: 1rem;
+}
+
+/* Legal notice page*/
+#legal-notice-content-box-outer-contact-value{
+  margin: 0.3rem 2rem;
+}
+
+}
+/* Small devices (Portrait tablets and small desktops) */
+@media(min-width:768px) and (max-width:991px){
+
+  /* Remove diagonal shape of the Quiz What? Links on Home page
+  and place text and link underneath it*/
+  #home-quizwhat-bg-diagonal{
+
+    margin-top: 2.5rem;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    height: 35rem;
+  }
+
+  #home-quizwhat-content-box{
+    height: 35rem;
+  }
+
+  #home-quizwhat-content-box-inner{
+    padding-left:10rem;
+    padding-right: 10rem;
+  }
+
+    /* Remove diagonal shape of the Quiz What? Pro Links on Home page
+    and place text and link underneath it*/
+  #home-quizwhat-pro-bg-diagonal{
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    height: 35rem;
+  }
+
+  #home-quizwhat-pro-content-box{
+    float:left;
+    height: 35rem;
+  }
+
+
+
+  #home-quizwhat-pro-content-box-inner{
+    padding-left:10rem;
+    padding-right: 10rem;
+  }
+
+  /* Legal pages */
+
+  /* General adaptions legal pages */
+  .privacy-padding{
+    padding: 3.5rem 7rem;
+  }
+
+  /* Legal notice page*/
+  #legal-notice-content-box-outer-contact-value{
+  margin: 0.3rem 2rem;
+  }
+
+}
+
+/* Extra small devices (Phones and very small desktops) */
+@media (max-width:767px){
+
+  /* Reduce font size of heading */
+  #home-heading h3{
+    font-size: 8rem;
+  }
+  #home-heading h4{
+    font-size: 3rem;
+  }
+
+  .navbar{
+    background: rgba(0,0,0,0.7);
+    padding: 0;
+  }
+
+  .navbar-nav{
+    float: left;
+  }
+
+  #thnkplicity-nav-wrapper{
+    padding: 0;
+  }
+
+
+
+
+  /*
+  Change color of active menu item -> since at this screen size the navigation
+  menu is collapsed
+
+  #thnkplicity_menu li.current-page-active a{
+    color:var(--highlight-color);
+  }
+  */
+
+  /* Remove diagonal shape of the Quiz What? Links on Home page
+  and place text and link underneath it*/
+  #home-quizwhat-bg-diagonal{
+
+    margin-top: 2.5rem;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    height: 35rem;
+  }
+
+  #home-quizwhat-content-box{
+    height: 40rem;
+  }
+
+  #home-quizwhat-content-box-inner{
+    padding-left:5rem;
+    padding-right: 5rem;
+  }
+
+    /* Remove diagonal shape of the Quiz What? Pro Links on Home page
+    and place text and link underneath it*/
+  #home-quizwhat-pro-bg-diagonal{
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    height: 35rem;
+  }
+
+  #home-quizwhat-pro-content-box{
+    height: 40rem;
+    float: left;
+  }
+
+  #home-quizwhat-pro-content-box-inner{
+    padding-left:5rem;
+    padding-right: 5rem;
+  }
+
+
+  /* Make title of Quiz What? product presentation smaller -> so that Quiz
+  What? Pro can fit in one line */
+  #home-quizwhat-pro-title h3{
+    font-size: 4.6rem;
+  }
+
+  #home-quizwhat-title h3{
+    font-size: 4.6rem;
+    margin-top: 1rem;
+  }
+
+
+    /* Legal pages */
+
+  /* General adaptions legal pages */
+  .privacy-padding{
+    padding: 3.5rem 5rem;
+  }
+
+  /* Privacy policy */
+  .margin-legal-page-sublist{
+    margin-left: 0.5rem !important;
+  }
+
+  .contact-email{
+    text-align: left;
+    word-break: break-word;
+  }
+
+  .contact-email-final{
+    word-break: break-word;
+  }
+
+
+  /* Terms and conditions page */
+  #terms-conditions-page{
+    word-break: break-word;
+  }
+
+
+  /* License notice page */
+  #license-notice-page{
+    word-break: break-word;
+  }
+
+  .license-notice-urls{
+    word-break: break-word;
+  }
+
+
+  /* Legal notice page*/
+  #legal-notice-content-box-outer-contact-value{
+    margin: 0.3rem 2rem;
+    }
+  
+  #legal-notice{
+    word-break: break-word;
+  }
+
+
+}
+
+/* Extra small devices (Smaller devices) */
+@media(max-width:480px){
+
+  /* make heading smaller */
+  #home-heading h3{
+    font-size: 6.2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #home-heading h4{
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  /* Make title of Quiz What? product presentation smaller -> so that Quiz
+  What? Pro can fit in one line */
+  #home-quizwhat-pro-title h3{
+    font-size: 3.5rem;
+  }
+
+  #home-quizwhat-title h3{
+    font-size: 3.5rem;
+  }
+
+  #home-quizwhat-pro-content-box{
+    height: 38rem;
+  }
+
+      /* Legal pages */
+
+  /* General adaptions legal pages */
+  
+
+  
+  h3.legal-text-section{
+    font-size: 4rem;
+  }
+
+  #privacy-definitions-and-interpretations-container h3{
+    hyphens: auto;
+    word-break: break-word;
+  }
+
+  .break-word{
+    hyphens: auto;
+    word-break: break-word;
+  }
+
+  .privacy-page{
+    overflow-x: hidden;
+  }
+  /* Privacy policy */
+
+  /* Terms and Conditions */
+  #terms-title{
+    font-size: 3.6rem;
+  }
+
+  /* License page */
+  #license-intro h7{
+    font-size: 1.6rem;
+  }
+  #legal-notice{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* Quiz What pages */
+  /* Header */
+
+  #quiz-what-page-quiz-what-title{
+    margin-top: 8rem;
+    padding: 0 5rem;
+  }
+  
+  #quiz-what-page-quiz-what-title h1{
+    font-size: 5rem;
+  }
+
+  #quiz-what-page-quiz-what-catch-line{
+    padding: 0 5rem;
+  }
+  
+  #quiz-what-page-quiz-what-catch-line h4{
+  font-size: 3.5rem;
+}
+
+.phone{
+  width: calc(11.5rem * 1.5);
+  height: calc(25.25rem * 1.5);
+}
+
+.phone-pro{
+  width: calc(11.5rem * 1.5);
+  height: calc(25.25rem * 1.5);
+}
+  
+
+  /* Placeholder DELETE WHEN NOT NEEDED */
+  #quiz-what-page-placeholder{
+    height: 65rem;
+  }
+  
+  #under-construction-symbol{
+    height: 10rem;
+    margin-top: 5rem;
+  }
+  
+  #quiz-what-page-placeholder {
+    padding:15rem 2.5rem;
+  }
+  #quiz-what-page-placeholder h7{
+    font-size: 3.2rem;
+  }
+
+
+
+
+}
+
+/* Extra small devices (Smaller devices) */
+@media(max-width:320px){
+
+  #thnkplicity-navigation-header a{
+    font-size: 1.0rem;
+  }
+
+  #home-quizwhat-pro-content-box{
+    height: 45rem;
+  }
+
+  #home-quizwhat-content-box{
+    height: 45rem;
+  }
+
+  /* reduce padding from Quiz What products to make more space for the text */
+
+  #home-quizwhat-pro-content-box-inner{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #home-quizwhat-content-box-inner{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* reduce padding of title */
+  #home-heading h3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+      /* Legal pages */
+
+  /* General adaptions legal pages */
+  
+  /* Privacy policy */
+  
+  .privacy-page h6 {
+    font-size: 2.1rem;
+    text-align: left;
+  }
+
+  .privacy-page h7 {
+    font-size: 1.8rem;
+  }
+
+  .privacy-page li {
+    font-size: 1.8rem;
+
+  }
+
+  .margin-legal-page-sublist{
+    margin-left: 0.2rem !important;
+  }
+
+    /* Privacy policy */
+  
+    h3.legal-text-section{
+      font-size: 3rem;
+    }
+
+    div.privacy-last-paragraph-text b{
+      padding-right: 2rem;
+    }
+
+      /* License page */
+  #license-intro h7{
+    font-size: 1.3rem;
+  }
+  
+    /* Quiz What pages */
+  /* Header */
+
+  #quiz-what-page{
+    height: 30rem;
+  }
+
+  #quiz-what-page-quiz-what-title{
+    margin-top: 8rem;
+  }
+  
+  #quiz-what-page-quiz-what-title h1{
+    font-size: 3.8rem;
+  }
+
+  
+  #quiz-what-page-quiz-what-catch-line h4{
+  font-size: 2.5rem;
+}
+
+.phone{
+  width: calc(9rem * 1.5);
+  height: calc(19.75rem * 1.5);
+}
+
+.phone-pro{
+  width: calc(9rem * 1.5);
+  height: calc(19.75rem * 1.5);
+}
+  
+
+  /* Placeholder DELETE WHEN NOT NEEDED*/
+  #quiz-what-page-placeholder{
+    height: 50rem;
+  }
+  
+  #under-construction-symbol{
+    height: 10rem;
+    margin-top: 2rem;
+  }
+  
+  #quiz-what-page-placeholder {
+    padding:10rem 1.5rem;
+  }
+  #quiz-what-page-placeholder h7{
+    font-size: 2.5rem;
+  }
+
+}

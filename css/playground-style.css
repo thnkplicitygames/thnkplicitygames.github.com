@@ -1,0 +1,813 @@
+/* ------------------------------------------------------------------------
+
+DEFAULT VALUES
+
+Font family:        Barlow
+
+Accent color:       #b5433b
+Dark BG color:      #303030
+Light BG color:     #ffffff
+
+
+------------------------------------------------------------------------ */
+
+/* =======================================================
+                        GENERAL CSS
+==========================================================
+*/
+
+
+:root {
+  --bg-color: #303030;
+  --fg-color: #fff;
+  --highlight-color: #b5433b;
+  --highlight-shade-one: #E8A19B;
+  --highlight-shade-two: #E86056;
+  --highlight-shade-three: #9C403A;
+  --highlight-shade-four: #885e5b;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 3.5rem;
+}
+
+h5{
+  font-size: 1.8rem;
+}
+
+h6{
+  font-size: 2.4rem;
+  padding: 0 0 0 0;
+  margin: 2rem 0;
+}
+
+h7{
+  font-size: 2.0rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  line-height: 120%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+
+  font-family: "Barlow", sans-serif;
+
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 0 0 0;
+}
+
+
+/* Google button */
+.google-button {
+  max-width: 16rem;
+  margin-top: 6rem;
+}
+
+.word{
+  text-align: justify;
+}
+
+.white-text-color{
+  color:var(--fg-color);
+}
+
+.text-centered{
+  text-align: center;
+}
+
+.link-url-text a{
+  color: var(--highlight-color);
+  font-weight: 700;
+}
+
+.link-url-text a:hover{
+  color: var(--highlight-shade-two);
+}
+
+.link-url-text-contrast a{
+  color: var(--fg-color);
+  font-weight: 700;
+}
+
+.link-url-text-contrast a:hover{
+  color: var(--bg-color);
+}
+
+
+
+/* Zoom feature */
+/* Zoom feature icon */
+.content-box-inner-zoom {
+  overflow: hidden;  
+}
+
+.content-box-inner-zoom img{
+transition: transform .5s ease;
+}
+
+.content-box-inner-zoom:hover img{
+  transform: scale(1.1);
+  }
+
+/* =======================================================
+              NAVIGATION BAR
+==========================================================
+*/
+
+#thnkplicity-navigation-header a{
+  color: var(--fg-color);
+}
+
+#thnkplicity-navigation-header a:hover{
+  color: var(--highlight-shade-two);
+  font-weight: 700;
+}
+
+#thnkplicity_menu li {
+  font-size: 2.0rem;
+}
+
+.navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
+  background: none;
+}
+
+#thnkplicity_menu li.page-inactive a {
+  color: var(--fg-color);
+}
+
+#thnkplicity_menu li.page-inactive a:hover {
+  color: var(--highlight-shade-two) !important;
+}
+
+#thnkplicity_menu li.current-page-active a{
+  color:var(--fg-color);
+  font-weight: 700;
+} 
+
+#thnkplicity_menu li.current-page-active a:hover{
+  color:var(--highlight-shade-two);
+} 
+
+.navbar {
+  padding: 2rem 0;
+  transition: all .5s ease-in-out;
+}
+
+.thnkplicity-nav-top{
+  background: rgb(24,24,24,0.7);
+  padding: 1rem 0;
+}
+
+.thnkplicity-nav-wrapper{
+  padding: 0 8rem;
+}
+
+.navbar-nav{
+  float:right;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: var(--fg-color);
+}
+
+.navbar-collapse {
+  max-height: none !important;
+}
+
+/* =======================================================
+                        HOME
+==========================================================
+*/
+
+#home {
+  height: 100%;
+}
+
+
+#home-cover {
+  height: 100%;
+  background-image: url("../media/img/home_hero.png");
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  color: var(--fg-color);
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home-heading h3 {
+  font-size: 10rem;
+  font-weight: 500;
+  margin: -22rem 0 0 0;
+
+}
+
+#home-heading h4 {
+  margin: 0 0 3rem 0;
+}
+
+
+/* =======================================================
+                        Parallax Effect (General)
+==========================================================
+*/
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+/* =======================================================
+                        Buttons (General)
+==========================================================
+*/
+
+.btn-general {
+  border-color: var(--fg-color);
+  border-width: 0.1rem;
+  border-radius: 0;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: var(--fg-color);
+  color: var(--fg-color);
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+
+}
+
+.btn-dark {
+  border-color: var(--bg-color);
+  color: var(--bg-color);
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+
+}
+
+.btn-back-to-top{
+  position: fixed;
+  bottom: 8rem;
+  right: 2rem;
+  background: var(--highlight-color);
+  border: none;
+  transition: all .5s ease;
+
+}
+
+
+.btn-back-to-top:hover{
+  background: var(--highlight-shade-two);
+}
+
+/* =======================================================
+                        Animate
+==========================================================
+*/
+
+.wow {
+  visibility: hidden;
+}
+
+#home-heading,
+#home-hero-button {
+  animation-duration: 0.6s;
+}
+
+#home-cover {
+  animation-duration: 2s;
+}
+
+#home-heading {
+  animation-delay: 0.8s;
+}
+
+#home-hero-button {
+  animation-delay: 1.7s;
+}
+
+/* =======================================================
+            HOME QUIZ WHAT? Presentation  (General)
+==========================================================
+*/
+
+/* Quiz What? Link */
+
+#home-quizwhat-bg-diagonal{
+  width: 60%;
+  height: 70rem;
+  float: right;
+  background-image: url(../media/img/home_quizwhat_left.png);
+  border-left: 20rem solid var(--fg-color);
+  border-top: 70rem solid transparent;
+}
+
+
+#home-quizwhat-content-box{
+  float: left;
+  height: 70rem;
+
+}
+
+#home-quizwhat-content-box-outer{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-quizwhat-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 5rem;
+  color:var(--bg-color);
+}
+
+
+#home-quizwhat-title h3{
+  margin-top: 1rem;
+}
+
+
+/* Quiz What? Pro Link */
+
+#home-quizwhat-pro-content-box{
+  float: right;
+  
+  height: 70rem;
+
+}
+
+#home-quizwhat-pro-bg-diagonal{
+  width: 60%;
+  height: 70rem;
+  float: left;
+  background-image: url(../media/img/home-quizwhatpro-right.png);
+  border-right: 20rem solid var(--fg-color);
+  border-top: 70rem solid transparent;
+}
+
+#home-quizwhat-pro-content-box-outer{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-quizwhat-pro-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 3rem;
+  color:var(--bg-color);
+}
+
+#home-quizwhat-pro-title h3{
+  margin-top: 1rem;
+}
+
+
+/* =======================================================
+                      FOOTER
+==========================================================
+*/
+
+#footer-bottom{
+  padding: 2rem 0 2rem 0;
+  background: var(--bg-color);
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+#footer-menu{
+  text-align: center;
+}
+
+#footer-menu ul li{
+  color: var(--fg-color);
+  list-style: none;
+  display: inline-block;
+    
+}
+#footer-menu a{
+  color:var(--fg-color);
+  margin: 0 1rem 0 1rem;  
+}
+
+#footer-menu a:hover{
+  font-weight: 700;
+  color: var(--highlight-color);
+}
+
+
+
+/* =======================================================
+                      LEGAL PAGES
+==========================================================
+*/
+
+.text-highlight-color{
+  color:var(--highlight-color);
+  font-weight: 700;
+}
+
+
+a.text-highlight-color:hover{
+  color:var(--highlight-shade-two);
+}
+
+.text-highlight-color-light{
+  color:var(--fg-color);
+  font-weight: 700;
+}
+
+a.text-highlight-color-light:hover{
+  color:var(--bg-color);
+}
+
+.last-updated-format{
+  text-align: right;
+  font-weight: 700;
+  margin:0.5rem 0;
+  padding-right: 1rem;
+}
+
+.last-updated-format h7{
+  font-size: 1.7rem;
+}
+
+/* =======================================================
+                      PRIVACY POLICY
+==========================================================
+*/
+
+.legal-text-section{
+  color:var(--highlight-color);
+  text-align: center;
+}
+
+#privacy-content-box{
+  display: table;
+  background: var(--bg-color);
+  height: 100%;
+  width: 100%;
+  padding:15rem 5rem;
+}
+
+#privacy-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#privacy-content-box-inner h3{
+  margin-top: 1rem;
+  color:var(--fg-color);
+}
+
+.privacy-padding{
+  padding: 3.5rem 10rem;
+}
+
+#privacy-intro{
+  padding-bottom: 1rem;
+}
+
+.legal-definition-title{
+  padding-top: 2.5rem;
+  margin-bottom: 0rem;
+}
+
+h6.legal-paragraph-margin{
+  margin-top: 3rem;
+}
+
+.legal-paragraph-margin{
+  margin-top: 3rem;
+}
+
+ul.privacy-collection-data-list{
+  font-size: 2.0rem;
+  list-style: none;
+}
+
+ul.privacy-collection-data-list li::before{
+  content:"\25B7 \0020";
+}
+
+#CCPA-privacy-categories{
+  background: var(--highlight-color);
+}
+
+.privacy-last-paragraph-section{
+  margin-bottom: 4rem;
+}
+
+.privacy-last-paragraph-text{
+  text-align: center;
+}
+
+/* =======================================================
+                      LICENSE NOTICE
+==========================================================
+*/
+
+
+
+.license-creator-link{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;  
+}
+
+#license-image-notice-conten-box-outer{
+  margin: 1rem 0;
+}
+
+
+
+/*Zoom into pictures on hover inside the image's
+size */
+#license-image-notice-content-box-inner {
+  overflow: hidden;  
+}
+
+#license-image-notice-content-box-inner img{
+transition: transform .5s ease;
+}
+
+#license-image-notice-content-box-inner:hover img{
+  transform: scale(1.3);
+  }
+
+
+#license-menu-container{
+  background-color: var(--highlight-shade-two);
+}
+
+
+
+#license-menu-content-box-outer{
+  text-align: center; 
+  padding: 1.5rem 1.5rem;
+}
+
+#license-menu-content-box-inner img{
+  height: 10rem;
+}
+
+#text-menu-license{
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+#introduction-license{
+  background-color: var(--highlight-shade-two);
+}
+
+#license-intro{
+  text-align: center;
+  font-weight: 700;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: var(--fg-color);
+}
+
+/* =======================================================
+                      LEGAL NOTICE
+==========================================================
+*/
+
+#legal-notice{
+  background-color: var(--highlight-color);
+}
+
+#legal-notice-content-box-outer{
+  margin: 2rem 0;
+}
+
+#legal-notice-content-box-inner-title h7{
+  color:var(--bg-color);
+  font-weight: 700;
+}
+
+
+#legal-notice-content-box-inner-value h7{
+  color:var(--fg-color);
+}
+
+#legal-notice-content-box-outer-contact{
+  margin: 0.3rem 2rem;
+
+}
+
+#legal-notice-content-box-outer-contact-value{
+  margin: 0.3rem 0;
+
+}
+
+#legal-notice{
+  padding: 3rem 0;
+  
+}
+
+
+/* =======================================================
+                      QUIZ WHAT?
+==========================================================
+*/
+
+/* PHONE */
+/* css-phone */
+.phone{
+  width: calc(13.82rem * 1.5);
+  height: calc(30.34rem * 1.5);
+  transform: rotate3d(-1, .5, -.5, -45deg);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+}
+.phone .__phone-border {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  /* background-color: var(--fg-color); */
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(30,30,30,1) 98%, rgba(0,0,0,1) 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 10px 5px;
+}
+
+.phone .__phone-border .__phone-screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  /* background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);  */
+  background: url(/media/img/quiz-what-page-screen-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Phone for Quiz What? Pro */
+.phone-pro{
+  width: calc(13.82rem * 1.5);
+  height: calc(30.34rem * 1.5);
+  transform: rotate3d(-1, .5, -.5, -45deg);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+}
+.phone-pro .__phone-pro-border {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  /* background-color: var(--fg-color); */
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(30,30,30,1) 98%, rgba(0,0,0,1) 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 10px 5px;
+}
+
+.phone-pro .__phone-pro-border .__phone-pro-screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  /* background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);  */
+  background: url(/media/img/quiz-what-pro-page-screen-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#quiz-what-page{
+  background-color: var(--bg-color);
+  height: 40rem;
+}
+
+
+#quiz-what-page-container{
+  padding: 10rem 0;
+}
+
+.hero-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  vertical-align: middle;
+}
+
+#quiz-what-page-header-accent-color{
+  background-color: var(--highlight-color);
+  height: 2.5rem;
+}
+
+#quiz-what-page-quiz-what-title{
+  text-align: center;
+  color: var(--bg-color);
+  margin-top: 15rem;
+}
+
+#quiz-what-page-quiz-what-title h1{
+  font-size: 8rem;
+}
+
+#quiz-what-page-quiz-what-catch-line{
+  text-align: center;
+  color: var(--bg-color);
+}
+
+#quiz-what-page-quiz-what-link-to-page-img{
+  text-align: center;
+}
+
+#quiz-what-page-quiz-what-link-to-page-img img{
+  margin: 2rem 0;
+}
+
+/* PLACEHOLDER DELETE IT WHEN NOT NEEDED */
+#quiz-what-page-placeholder{
+  background-color: var(--bg-color);
+  height: 70rem;
+}
+
+#under-construction-symbol{
+  height: 10rem;
+  margin-top: 5rem;
+}
+
+#quiz-what-page-placeholder {
+  padding:15rem 3rem;
+  text-align: center;
+}
+#quiz-what-page-placeholder h7{
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+/* FAQ page */
+
+#faq-page{
+  background-color: var(--bg-color);
+  height: 40rem;
+}
+
+#faq-page-container-header{
+  display: table;
+  height: 100%;
+}
+
+#faq-page-container-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* DELETE WHEN NOT NEEDED */
+#faq-page-body{
+  background-color: var(--highlight-color);
+}

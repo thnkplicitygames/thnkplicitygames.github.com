@@ -108,6 +108,11 @@ header{
     justify-content: center;
     grid-row-start: 1;
   }
+
+  .logo{
+    font-size: 1.5rem;
+  }
+
 }
 /* header logo */
 .logo{
@@ -116,8 +121,9 @@ header{
   display: flex;
   flex-direction: row;
   text-decoration: none;
+  white-space: nowrap;
   color: var(--fg-color);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
