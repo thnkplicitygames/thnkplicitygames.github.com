@@ -1,0 +1,19 @@
+{
+  "name": "THNKPLICITY GAMES",
+  "short_name": "THNKPLICITY",
+  "icons": [
+    {
+      "src": "/media/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/media/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#b5433b",
+  "background_color": "#303030",
+  "display": "standalone"
+}
