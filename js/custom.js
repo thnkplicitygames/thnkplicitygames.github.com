@@ -32,7 +32,9 @@ $(function(){
 
       
       //show back-to-top button
-      $("#back-to-top").fadeIn(0020).addClass("btn-back-to-top");
+      $("#back-to-top").fadeIn(0020, function(){
+        $(this).addClass("btn-back-to-top");
+      });
 
     }
   });
