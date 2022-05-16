@@ -24,10 +24,59 @@
 
 }
 
+/* Large devices specific range (Desktops and laptops)*/
+
+@media(min-width: 1200px) and (max-width:1700px) {
+
+    /* Quiz What page*/
+  QWDescriptionSubText{
+    font-size: 3.2rem;
+  }
+
+  #home-quizwhat-content-box-inner{
+    padding-left: 3rem;
+  }
+
+  #home-quizwhat-content-box-outer{
+    margin-left: 5rem;
+  }
+
+  #qw-explanation-desciption{
+    font-size: 2.8rem;
+  }
+
+  #quizwhat-summary-msg{
+    padding: 0 15rem;
+  }
+
+
+  #qw-display-smileys-responsive{
+    padding: 10rem 5rem;
+  }
+
+  #qw-display-smileys-responsive QWTitleText{
+    font-size: 6rem;
+  }
+
+  .smiley-presentation-qw{
+    margin: 1rem 3rem;
+  }
+
+  #qw-100quiz-description{
+    padding: 0 20rem;
+  }
+/* ------------------------------ */
+
+
+}
+
+
+
+
 /* Medium devices (Landscape tablets and medium desktops)*/
 @media(min-width:992px) and (max-width:1199px){
 
-
+  /* Quiz What landing page*/
   #home-quizwhat-bg-diagonal{
   width: 55%;
   }
@@ -38,9 +87,87 @@
 
 
 
-#home-quizwhat-pro-content-box-inner{
-  padding-right: 1rem;
+  #home-quizwhat-pro-content-box-inner{
+    padding-right: 1rem;
+  }
+
+
+/* ------------------------------ */
+
+/* Quiz What? Presentation page*/
+
+#quiz-what-page-header-container-row{
+  margin-bottom: 5rem;
 }
+
+/* Quiz What page*/
+QWDescriptionSubText{
+  font-size: 2.8rem;
+}
+
+/* Diaogonal pictures for the quiz categories */
+#quizwhat-categories-people-bg-diagonal{
+  width: 58%;
+  background-position-x: -8rem;
+  }
+
+#quizwhat-categories-movies-bg-diagonal{
+  width: 58%;
+  }
+
+#quizwhat-categories-games-bg-diagonal{
+  width: 58%;
+}
+
+
+#quizwhat-categories-brands-bg-diagonal{
+  width: 58%;
+  background-size: 50rem;
+  }
+
+.padding-responsive-qw-parallax-left{
+  margin-left: 3rem !important;
+}
+
+.padding-responsive-qw-parallax-right{
+  margin-right: 3rem !important;
+}
+
+#quizwhat-summary-msg{
+  padding:0 15rem;
+}
+
+#qw-display-smileys-responsive{
+  padding: 10rem 6rem;
+}
+
+#qw-display-smileys-responsive QWTitleText{
+  font-size: 4rem;
+}
+
+.smiley-presentation-qw{
+  margin: 1rem 3rem;
+}
+
+#qw-100quiz-description{
+  padding: 0 10rem;
+}
+
+#qw-100quiz-value{
+  font-size: 12rem;
+}
+
+#qw-download-btm-headline{
+  padding-top: 17vh;
+}
+
+#additional-note-qw-download{
+  font-size: 1.2rem;
+}
+
+
+
+/*---------------------------*/
 
 /* Legal notice page*/
 #legal-notice-content-box-outer-contact-value{
@@ -92,6 +219,130 @@
     padding-right: 10rem;
   }
 
+  /* Quiz What? Presentation page*/
+
+#quiz-what-page-header-container-row{
+  margin-bottom: 2rem;
+}
+
+  /* Quiz What page*/
+
+  QWDescriptionText{
+    font-size: 3.5rem;
+  }
+
+  QWDescriptionSubText{
+  font-size: 2.0rem;
+  }
+
+.quizwhat-header-mainmsg{
+  padding: 0 1rem 5rem;
+}
+
+/* Diaogonal pictures for the quiz categories */
+#quizwhat-categories-people-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-right: 0;
+  border-top: 0;
+  }
+
+#home-quizwhat-pro-content-box{
+  height: 35rem;
+}
+
+#home-quizwhat-content-box{
+  height: 35rem;
+}
+
+#qw-people-responsive{
+  padding-left: 28rem;
+}
+
+#quizwhat-categories-movies-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-left: 0;
+  border-top: 0;
+  }
+
+#quizwhat-categories-games-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-right: 0;
+  border-top: 0;
+}
+
+
+#quizwhat-categories-brands-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-left: 0;
+  border-top: 0;
+  background-size: 35rem;
+  background-position: center;
+
+  }
+
+.padding-responsive-qw-parallax-left{
+  margin-left: 3rem !important;
+}
+
+.padding-responsive-qw-parallax-right{
+  margin-right: 3rem !important;
+}
+
+#quizwhat-summary-msg{
+  padding:0 5rem;
+}
+
+#qw-display-smileys-responsive{
+  padding: 7rem 2rem;
+}
+
+#qw-display-smileys-responsive QWTitleText{
+  font-size: 4rem;
+}
+
+.smiley-presentation-qw{
+  margin: 1rem 2rem;
+}
+
+#qw-100quiz-description{
+  padding: 0 3rem;
+}
+
+#qw-100quiz-value{
+  font-size: 8rem;
+}
+
+#qw-100quiz-description b{
+  font-size: 3.0rem;
+}
+
+#qw-download-btm-headline{
+  padding-top: 17vh;
+}
+
+#additional-note-qw-download{
+  font-size: 1.1rem;
+  padding: 1rem 1rem;
+}
+
+#download-now-qw-text{
+  font-size: 6rem;
+  padding: 0 0.7rem;
+}
+
+#qw-qr{
+  height:28vh;
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+}
+
+
+/*---------------------------*/
+
   /* Legal pages */
 
   /* General adaptions legal pages */
@@ -104,10 +355,142 @@
   margin: 0.3rem 2rem;
   }
 
+    /* QuizWhat Pages*/
+    .align-image{
+      text-align: center;
+    }
+
 }
 
 /* Extra small devices (Phones and very small desktops) */
 @media (max-width:767px){
+
+  /* ------------------------------ */
+
+/* Quiz What? Presentation page*/
+
+#quiz-what-page-header-container-row{
+  margin-bottom: 3rem;
+}
+
+/* Quiz What page*/
+
+QWDescriptionText{
+  font-size: 3.0rem;
+}
+
+QWDescriptionSubText{
+font-size: 1.8rem;
+}
+
+.quizwhat-header-mainmsg{
+padding: 0 1rem 5rem;
+}
+
+/* Diaogonal pictures for the quiz categories */
+#quizwhat-categories-people-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-right: 0;
+border-top: 0;
+}
+
+#home-quizwhat-pro-content-box{
+height: 35rem;
+}
+
+#home-quizwhat-content-box{
+height: 35rem;
+}
+
+#qw-people-responsive{
+padding-left: 28rem;
+}
+
+#quizwhat-categories-movies-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-left: 0;
+border-top: 0;
+}
+
+#quizwhat-categories-games-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-right: 0;
+border-top: 0;
+}
+
+
+#quizwhat-categories-brands-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-left: 0;
+border-top: 0;
+background-size: 35rem;
+background-position: center;
+
+}
+
+.padding-responsive-qw-parallax-left{
+margin-left: 3rem !important;
+}
+
+.padding-responsive-qw-parallax-right{
+margin-right: 3rem !important;
+}
+
+#quizwhat-summary-msg{
+padding:0 5rem;
+}
+
+#qw-display-smileys-responsive{
+padding: 7rem 1rem;
+}
+
+#qw-display-smileys-responsive QWTitleText{
+font-size: 3.0rem;
+}
+
+.smiley-presentation-qw{
+margin: 1rem 1.2rem;
+}
+
+#qw-100quiz-description{
+padding: 0 2rem;
+}
+
+#qw-100quiz-value{
+font-size: 8rem;
+}
+
+#qw-100quiz-description b{
+font-size: 3.0rem;
+}
+
+#qw-download-btm-headline{
+padding-top: 14vh;
+}
+
+#additional-note-qw-download{
+font-size: 1.1rem;
+padding: 1rem 1rem;
+}
+
+#download-now-qw-text{
+font-size: 4rem;
+padding: 0 0.7rem;
+}
+
+#qw-qr{
+height:22vh;
+margin-top: 10vh;
+margin-bottom: 7vh;
+}
+
+
+/*---------------------------*/
+
 
   /* Reduce font size of heading */
   #home-heading h3{
@@ -245,6 +628,11 @@
     word-break: break-word;
   }
 
+    /* QuizWhat Pages*/
+    .align-image{
+      text-align: center;
+    }
+
 
 }
 
@@ -277,6 +665,153 @@
   #home-quizwhat-pro-content-box{
     height: 38rem;
   }
+
+
+    /* Quiz What page*/
+
+    .quiz-what-logo-presentation-page{
+      height: 20rem;
+      margin-top: 0;
+    }
+    
+    #quiz-what-page-header-container-row{
+      margin-top: 10rem;
+    }
+
+    #quiz-what-page-quiz-what-title{
+      margin-top: 4rem !important;
+      font-size: 7rem;
+      padding: 0 3rem !important;
+    }
+
+  QWDescriptionText{
+    font-size: 2.2rem;
+  }
+
+  QWTitleText{
+    font-size: 5.5rem;
+  }
+
+  #qw-explanation-desciption{
+    font-size: 2.3rem;
+  }
+
+  QWDescriptionSubText{
+  font-size: 1.8rem;
+  }
+
+  .quizwhat-header-mainmsg{
+  padding: 0 1rem 5rem;
+  }
+
+  /* Diaogonal pictures for the quiz categories */
+  #quizwhat-categories-people-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-right: 0;
+  border-top: 0;
+  }
+
+  
+  #qw-people-responsive{
+    padding-left: 0;
+  }
+
+  #home-quizwhat-pro-content-box{
+  height: 35rem;
+  }
+
+  #home-quizwhat-content-box{
+  height: 35rem;
+  }
+
+
+  #quizwhat-categories-movies-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-left: 0;
+  border-top: 0;
+  }
+
+  #quizwhat-categories-games-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-right: 0;
+  border-top: 0;
+  }
+
+
+  #quizwhat-categories-brands-bg-diagonal{
+  width: 100%;
+  height: 35rem;
+  border-left: 0;
+  border-top: 0;
+  background-size: 35rem;
+  background-position: center;
+
+  }
+
+  .padding-responsive-qw-parallax-left{
+  margin-left: 3rem !important;
+  }
+
+  .padding-responsive-qw-parallax-right{
+  margin-right: 3rem !important;
+  }
+
+  #quizwhat-summary-msg{
+  padding:0 5rem;
+  }
+
+  #qw-display-smileys-responsive{
+  padding: 5rem 1rem;
+  }
+
+  #qw-display-smileys-responsive QWTitleText{
+  font-size: 3.0rem;
+  }
+
+  .smiley-presentation-qw{
+  margin: 0.5rem 1.0rem;
+  }
+
+  #qw-100quiz-description{
+  padding: 0 4rem;
+  }
+
+  #qw-100quiz-value{
+  font-size: 6rem;
+  }
+
+  #qw-100quiz-description b{
+  font-size: 2.5rem;
+  }
+
+  #qw-download-btm-headline{
+  padding-top: 22vh;
+  }
+
+  #additional-note-qw-download{
+  font-size: 1.0rem;
+  padding: 1rem 1rem;
+  }
+
+  #download-now-qw-text{
+  font-size: 3rem;
+  padding: 0 0.7rem;
+  }
+
+  #qw-qr{
+  height:22vh;
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  }
+
+
+  /*---------------------------*/
+
+
+
 
       /* Legal pages */
 
@@ -365,7 +900,10 @@
     font-size: 3.2rem;
   }
 
-
+  /* QuizWhat Pages*/
+  .align-image{
+    text-align: center;
+  }
 
 
 }
@@ -402,6 +940,161 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+
+  /* Quiz What page*/
+
+  .quiz-what-logo-presentation-page{
+    height: 20rem;
+    margin-top: 0;
+  }
+
+  #quiz-what-page-quiz-what-catch-line h4{
+    font-size: 2.0rem !important;
+  }
+  
+  #quiz-what-page-header-container-row{
+    margin-top: 10rem;
+  }
+
+  #quiz-what-page-quiz-what-title{
+    margin-top: 4rem !important;
+    font-size: 7rem;
+    padding: 0 3rem !important;
+  }
+
+QWDescriptionText{
+  font-size: 2.0rem;
+}
+
+QWTitleText{
+  font-size: 5.5rem;
+}
+
+#qw-explanation-desciption{
+  font-size: 2.3rem;
+}
+
+QWDescriptionSubText{
+font-size: 1.5rem;
+}
+
+.quizwhat-header-mainmsg{
+padding: 0 1rem 5rem;
+}
+
+/* Diaogonal pictures for the quiz categories */
+#quizwhat-categories-people-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-right: 0;
+border-top: 0;
+}
+
+
+#qw-people-responsive{
+  padding-left: 0;
+}
+
+#home-quizwhat-pro-content-box{
+height: 35rem;
+}
+
+#home-quizwhat-content-box{
+height: 35rem;
+}
+
+
+#quizwhat-categories-movies-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-left: 0;
+border-top: 0;
+}
+
+#quizwhat-categories-games-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-right: 0;
+border-top: 0;
+}
+
+
+#quizwhat-categories-brands-bg-diagonal{
+width: 100%;
+height: 35rem;
+border-left: 0;
+border-top: 0;
+background-size: 35rem;
+background-position: center;
+
+}
+
+.padding-responsive-qw-parallax-left{
+margin-left: 3rem !important;
+}
+
+.padding-responsive-qw-parallax-right{
+margin-right: 3rem !important;
+}
+
+#quizwhat-summary-msg{
+padding:0 3rem;
+margin:  5rem 0;
+}
+
+
+#qw-display-smileys-responsive{
+padding: 2rem 1rem;
+}
+
+#qw-display-smileys-responsive QWTitleText{
+font-size: 3.0rem;
+}
+
+.smiley-presentation-qw{
+margin: 0.7rem 0.7rem;
+width: 10%;
+}
+
+
+
+
+#qw-100quiz-description{
+padding: 0 1.8rem;
+}
+
+#qw-100quiz-value{
+font-size: 4rem;
+}
+
+#qw-100quiz-description b{
+font-size: 1.7rem;
+}
+
+#qw-download-btm-headline{
+padding-top: 22vh;
+}
+
+#additional-note-qw-download{
+font-size: 1.0rem;
+padding: 1rem 1rem;
+}
+
+#download-now-qw-text{
+font-size: 3rem;
+padding: 0 0.7rem;
+}
+
+#qw-qr{
+height:22vh;
+margin-top: 10vh;
+margin-bottom: 7vh;
+}
+
+
+/*---------------------------*/
+
 
       /* Legal pages */
 
@@ -489,5 +1182,10 @@
   #quiz-what-page-placeholder h7{
     font-size: 2.5rem;
   }
+
+    /* QuizWhat Pages*/
+    .align-image{
+      text-align: center;
+    }
 
 }

@@ -25,6 +25,12 @@ Light BG color:     #ffffff
   --highlight-shade-two: #E86056;
   --highlight-shade-three: #9C403A;
   --highlight-shade-four: #885e5b;
+  --text-color-qw-light:#FFFFFF;
+  --text-color-qw-dark:#212121;
+  --text-color-qw-accent:#108bc7;
+  --text-color-qwp-light:#FFFFFF;
+  --text-color-qwp-dark:#212121;
+  --text-color-qwp-accent:#f50d5a;
 }
 
 h3 {
@@ -78,7 +84,11 @@ img{
 /* Google button */
 .google-button {
   max-width: 16rem;
-  margin-top: 6rem;
+  margin-top: 6vh;
+}
+
+.google-button-qw {
+  max-width: 20vh;
 }
 
 .word{
@@ -91,6 +101,14 @@ img{
 
 .text-centered{
   text-align: center;
+}
+
+.text-right-aligned{
+  text-align: right;
+}
+
+.text-left-aligned{
+  text-align: left;
 }
 
 .link-url-text a{
@@ -115,7 +133,50 @@ img{
   text-decoration: none;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+
+/*
+Quiz What and Quiz What Pro Text colors
+*/
+
+.text-color-qw-light{
+  color: var(--text-color-qw-light); 
+}
+
+.text-color-qw-accent{
+  color: var(--text-color-qw-accent); 
+}
+
+.text-color-qw-dark{
+  color: var(--text-color-qw-dark); 
+}
+
+.text-color-qwp-light{
+  color: var(--text-color-qwp-light); 
+}
+
+.text-color-qwp-accent{
+  color: var(--text-color-qwp-accent); 
+}
+
+.text-color-qwp-dark{
+  color: var(--text-color-qwp-dark); 
+}
+
+
+.bg-color-qw-accent{
+  background-color: var(--text-color-qw-accent); 
+}
+
+.bg-color-qw-dark{
+  background-color: var(--text-color-qw-dark); 
+}
 
 /* Zoom feature */
 /* Zoom feature icon */
@@ -262,13 +323,15 @@ transition: transform .5s ease;
 }
 
 #home-heading h3 {
-  font-size: 10rem;
+  margin-top: 10vh;
+  font-size: 10vh;
   font-weight: 500;
 
 }
 
 #home-heading h4 {
-  margin: 0 0 3rem 0;
+  margin: 0 0 3vh 0;
+  font-size: 3.5vh;
 }
 
 
@@ -282,7 +345,6 @@ transition: transform .5s ease;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
 }
 
 
@@ -394,12 +456,12 @@ transition: transform .5s ease;
   width: 100%;
   height: 100%;
   display: table;
+  margin-left: 10rem;
 }
 
 #home-quizwhat-content-box-inner{
   display: table-cell;
   vertical-align: middle;
-  padding-left: 5rem;
   color:var(--bg-color);
 }
 
@@ -443,6 +505,7 @@ transition: transform .5s ease;
 #home-quizwhat-pro-title h3{
   margin-top: 1rem;
 }
+
 
 
 /* =======================================================
@@ -798,7 +861,6 @@ transition: transform .5s ease;
 #quiz-what-page-quiz-what-title{
   text-align: center;
   color: var(--bg-color);
-  margin-top: 15rem;
 }
 
 #quiz-what-page-quiz-what-title h1{
@@ -860,3 +922,174 @@ transition: transform .5s ease;
 #faq-page-body{
   background-color: var(--highlight-color);
 }
+
+
+
+/* =======================================================
+                      QUIZ WHAT? PRESENTATION PAGES GENERAL
+==========================================================
+*/
+
+
+/* Align images of the Quiz What Logos*/
+.align-image{
+  text-align: right;
+}
+
+
+.quiz-what-logo-presentation-page {
+  height: 27rem;
+
+}
+
+.quizwhat-header-mainmsg{
+  padding: 0 20rem 10rem;
+}
+
+QWDescriptionText{
+  font-size: 4rem;
+}
+
+QWDescriptionSubText{
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+
+QWTitleText{
+  font-size: 7rem;
+  font-weight: 800;
+}
+
+/* =======================================================
+                      QUIZ WHAT? PRESENTATION PAGE
+==========================================================
+*/
+
+#quiz-what-page-header-container-row{
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+/* Diaogonal pictures for the quiz categories */
+#quizwhat-categories-people-bg-diagonal{
+  width: 60%;
+  height: 70rem;
+  float: left;
+  background-image: url(../media/img/public-figures-qw.jpg);
+  border-right: 20rem solid var(--text-color-qw-accent);
+  border-top: 70rem solid transparent;
+}
+
+
+#quizwhat-categories-movies-bg-diagonal{
+  width: 60%;
+  height: 70rem;
+  float: right;
+  background-image: url(../media/img/movies-qw.jpg);
+  border-left: 20rem solid var(--text-color-qw-light);
+  border-top: 70rem solid transparent;
+}
+
+#quizwhat-categories-games-bg-diagonal{
+  width: 60%;
+  height: 70rem;
+  float: left;
+  background-image: url(../media/img/games-qw.jpg);
+  border-right: 20rem solid var(--text-color-qw-accent);
+  border-top: 70rem solid transparent;
+}
+
+
+#quizwhat-categories-brands-bg-diagonal{
+  width: 60%;
+  height: 70rem;
+  float: right;
+  border-left: 20rem solid var(--text-color-qw-dark);
+  border-top: 70rem solid transparent;
+  background-image: url(../media/img/thnkplicity-logo-circle-padding.png);
+  background-position: right;
+  background-size: 70rem;
+}
+
+
+#quizwhat-summary-msg{
+  margin:10rem 0;
+  padding:0 30rem;
+}
+
+#qw-explanation-desciption{
+  font-size: 3.5rem;
+}
+
+#qw-100quiz-description{
+  padding: 0 40rem;
+}
+
+#qw-100quiz-description b{
+  font-size: 3.5rem;
+}
+
+#qw-100quiz-value{
+  font-size: 15rem;
+  font-weight: 900;
+}
+
+.qw-description-small-padding{
+  padding: 5rem 0; 
+}
+
+#character-display{
+  margin: auto;
+  display: block;
+}
+
+.smiley-presentation-qw{
+  width: 6%;
+  height: auto;
+  margin: 2rem 4rem;
+
+}
+
+#smiley-icons-qw{
+	display: flex;
+	justify-content: center;
+  }
+
+#qw-download-link{
+  height: 100%;
+}
+
+#qw-download-link-cover{
+  height: 100%;
+  background-image: url("../media/img/home_hero.png");
+}
+
+#qw-download-btm-headline{
+  padding-top: 8vh;
+}
+
+#additional-note-qw-download{
+  padding: 2rem 0;
+}
+
+#additional-note-qw-download a{
+  color: var(--text-color-qw-accent);
+}
+
+#qw-qr{
+  height:32vh;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+#download-now-qw-text{
+  font-size: 8vh;
+}
+
+/* ------------------- */
+
+/* =======================================================
+                      QUIZ WHAT? PRO PRESENTATION PAGE
+==========================================================
+*/
