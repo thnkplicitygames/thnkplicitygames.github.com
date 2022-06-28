@@ -10,6 +10,14 @@
   --highlight-shade-two: #E86056;
   --highlight-shade-three: #9C403A;
   --highlight-shade-four: #885e5b;
+  --text-color-qw-light:#FFFFFF;
+  --text-color-qw-dark:#212121;
+  --text-color-qw-accent:#108bc7;
+  --text-color-qwp-light:#FFFFFF;
+  --text-color-qwp-dark:#212121;
+  --text-color-qwp-accent:#f50d5a;
+  --bg-color-qwp: #2a051c;
+  --bg-color-qwp-accent:#2a051c;
 }
 
 
@@ -17,6 +25,13 @@
                   BOOTSTRAP MEDIA QUERIES
 ==========================================================
 */
+
+
+/* =======================================================
+                  MINIMUM 1200
+==========================================================
+*/
+
 
 /* Large devices (Desktops and laptops)*/
 
@@ -68,9 +83,72 @@
 /* ------------------------------ */
 
 
+    /* Quiz What Pro page*/
+
+    #quiz-what-pro-page-quiz-what-title h1{
+      font-size: 4.8rem;
+    }
+
+    #quiz-what-pro-page-quiz-what-catch-line h4{
+      font-size: 3rem;
+    }
+
+    #quiz-what-pro-1000-quizzes-bg-container{
+
+      height: 130rem;
+      background-size: contain;
+      position: relative;
+      background-position-x: 95%;
+      background-position-y: 140%;
+    }
+
+    #qwp-1000-quizzes-content-box{
+      padding: 10rem 15rem;
+    }
+
+    #qwp-1000-quizzes-content-box QWPTitleText{
+      font-size: 12rem;
+    }
+
+    #qwp-1000-quizzes-content-box QWPDescriptionSubText{
+      font-size: 3.5rem;
+    }
+
+    #qwp-unlimited-quizzits-content-box QWPTitleText{
+      font-size: 10rem;
+    }
+
+    #qwp-unlimited-quizzits-content-box QWPDescriptionSubText{
+      font-size: 2.8rem;
+    }
+
+    #qwp-unlimited-quizzits-content-box{
+
+      padding-left: 15rem;
+      padding-right: 10rem;
+    }
+
+    #qwp-no-ads-title QWPTitleText{
+      font-size: 12rem;
+    }
+
+    #qwp-no-ads-title QWPDescriptionSubText{
+      font-size: 3rem;
+    }
+
+    #quiz-what-pro-page-no-ads-container-row{
+    height: 30rem;
+    }
+
+
+    /* ----------------------*/
+
 }
 
-
+/* =======================================================
+                  MINIMUM 990
+==========================================================
+*/
 
 
 /* Medium devices (Landscape tablets and medium desktops)*/
@@ -169,10 +247,101 @@ QWDescriptionSubText{
 
 /*---------------------------*/
 
+    
+
+/* Quiz What Pro page*/
+
+    #quiz-what-pro-page-quiz-what-title h1{
+      font-size: 4.8rem;
+    }
+
+    #quiz-what-pro-page-quiz-what-catch-line h4{
+      font-size: 3rem;
+    }
+
+    .quiz-what-pro-logo-presentation-page {
+      height: 20rem;
+    
+    }
+
+    
+.quizwhat-pro-header-mainmsg{
+  padding: 0 10rem 10rem;
+}
+
+
+#quiz-what-pro-1000-quizzes-bg-container{
+
+  height: 80rem;
+  background-size: contain;
+  background-position-x: 95%;
+  background-position-y: 70%;
+}
+
+
+
+#qwp-1000-quizzes-content-box{
+  padding: 10rem 8rem;
+}
+
+#qwp-1000-quizzes-content-box QWPTitleText{
+  font-size: 10rem;
+}
+
+#qwp-1000-quizzes-content-box QWPDescriptionSubText{
+  font-size: 3.2rem;
+}
+
+#qwp-unlimited-quizzits-content-box QWPTitleText{
+  font-size: 8rem;
+}
+
+#qwp-unlimited-quizzits-content-box QWPDescriptionSubText{
+  font-size: 2.5rem;
+}
+
+#qwp-unlimited-quizzits-content-box{
+
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+#unlimited-quizzits-qwp{
+  padding: 5rem 0;
+}
+
+
+#qwp-no-ads-title QWPTitleText{
+  font-size: 10rem;
+}
+
+#qwp-no-ads-title QWPDescriptionSubText{
+  font-size: 3.2rem;
+}
+
+#quiz-what-pro-page-no-ads-container-row{
+height: 30rem;
+}
+
+#quiz-what-pro-no-ads-image{
+  padding: 3rem;
+
+}
+
+/* ----------------------*/
+
+
+
+
 /* Legal notice page*/
 #legal-notice-content-box-outer-contact-value{
   margin: 0.3rem 2rem;
 }
+
+/* =======================================================
+                  MINIMUM 770
+==========================================================
+*/
 
 }
 /* Small devices (Portrait tablets and small desktops) */
@@ -340,8 +509,86 @@ QWDescriptionSubText{
   margin-bottom: 7vh;
 }
 
-
 /*---------------------------*/
+
+  /*Quiz What? Pro */
+
+  .quizwhat-pro-header-mainmsg{
+    padding: 0 9rem 10rem;
+  }
+
+
+  #quiz-what-pro-page-header-container-row{
+    margin-bottom: 7rem;
+  }
+
+
+
+  #quiz-what-pro-1000-quizzes-bg-container{
+
+    height: 100rem;
+    background-position-x: 95%;
+    background-position-y: 150%;
+    background-size: contain;
+  }
+  
+  #qwp-1000-quizzes-content-box{
+    padding: 7rem 8rem;
+  }
+  
+  #qwp-1000-quizzes-content-box QWPTitleText{
+    font-size: 8rem;
+  }
+  
+  #qwp-1000-quizzes-content-box QWPDescriptionSubText{
+    font-size: 2.8rem;
+  }
+  
+  #qwp-unlimited-quizzits-content-box QWPTitleText{
+    font-size: 6.5rem;
+  }
+  
+  #qwp-unlimited-quizzits-content-box QWPDescriptionSubText{
+    font-size: 2.2rem;
+  }
+  
+  #unlimited-quizzits-qwp{
+    padding: 6rem 0;
+  }
+
+  #qwp-unlimited-quizzits-content-box{
+    padding-left: 10rem;
+    padding-right: 8rem;
+  }
+
+
+  #qwp-no-ads-title QWPTitleText{
+    font-size: 8rem;
+  }
+  
+  #qwp-no-ads-title QWPDescriptionSubText{
+    font-size: 2.8rem;
+  }
+  
+  #quiz-what-pro-page-no-ads-container-row{
+  height: 30rem;
+  }
+  
+  #quiz-what-pro-no-ads-image{
+    padding: 3.5rem;
+    height: 30rem;
+
+  
+  }
+  
+  #qwp-qr{
+    opacity: 0.8;
+  }
+
+
+  /*----------------------------*/
+
+
 
   /* Legal pages */
 
@@ -361,6 +608,12 @@ QWDescriptionSubText{
     }
 
 }
+
+/* =======================================================
+                  MAXIMUM 770
+==========================================================
+*/
+
 
 /* Extra small devices (Phones and very small desktops) */
 @media (max-width:767px){
@@ -490,6 +743,112 @@ margin-bottom: 7vh;
 
 
 /*---------------------------*/
+
+
+
+/* Quiz What Pro page*/
+
+    #quiz-what-pro-page-quiz-what-title h1{
+      font-size: 4.8rem;
+    }
+
+    #quiz-what-pro-page-quiz-what-catch-line h4{
+      font-size: 3rem;
+    }
+
+    .quiz-what-pro-logo-presentation-page {
+      height: 20rem;
+    
+    }
+
+    .quizwhat-pro-header-mainmsg{
+      padding: 0 5rem 10rem;
+    }
+
+    #quiz-what-pro-page-header-container-row{
+      margin-bottom: 7rem;
+    }
+  
+
+
+
+    #quiz-what-pro-1000-quizzes-bg-container{
+
+      height: 100%;
+      padding: 2.5rem 0;
+      background: var(--bg-color-qwp-accent);
+    }
+    
+    #qwp-1000-quizzes-content-box{
+      padding: 2rem 5rem;
+      position:inherit;
+    }
+    
+    #qwp-1000-quizzes-content-box QWPTitleText{
+      font-size: 6rem;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    #qwp-1000-quizzes-content-box QWPDescriptionSubText{
+      font-size: 2.0rem;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    #qwp-unlimited-quizzits-content-box QWPTitleText{
+      font-size: 5.5rem;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    #qwp-unlimited-quizzits-content-box QWPDescriptionSubText{
+      font-size: 1.7rem;
+      display: inline-block;
+      text-align: center;
+    }
+
+    
+    #qwp-unlimited-quizzits-content-box{
+      padding: 5rem;
+      position:inherit;
+    }
+
+
+    QWPTitleText.text-color-qwp-accent{
+      width: 100%;
+    }
+
+    QWPDescriptionSubText{
+      width: 100%;
+    }
+
+    #unlimited-quizzits-qwp{
+      padding: 2.5rem 0;
+    }
+
+
+    #qwp-no-ads-title QWPTitleText{
+      font-size: 6rem;
+    }
+    
+    #qwp-no-ads-title QWPDescriptionSubText{
+      font-size: 2rem;
+    }
+    
+    #quiz-what-pro-page-no-ads-container-row{
+    height: 20rem;
+    }
+    
+    #quiz-what-pro-no-ads-image{
+      padding: 2.5rem;
+      height: 25rem;
+  
+    
+    }
+/* ----------------------*/
+
+
 
 
   /* Reduce font size of heading */
@@ -634,7 +993,20 @@ margin-bottom: 7vh;
     }
 
 
+    /* FAQ Page*/
+    #faq-texts{
+      padding: 3rem 3rem;
+    
+    }
+    
+
 }
+
+
+/* =======================================================
+                  MAXIMUM 480
+==========================================================
+*/
 
 /* Extra small devices (Smaller devices) */
 @media(max-width:480px){
@@ -811,6 +1183,85 @@ margin-bottom: 7vh;
   /*---------------------------*/
 
 
+  /* Quiz What Pro page*/
+
+  #quiz-what-pro-page-quiz-what-title h1{
+    font-size: 3.5rem;
+  }
+
+  #quiz-what-pro-page-quiz-what-catch-line h4{
+    font-size: 2.3rem;
+  }
+  
+  .quizwhat-pro-header-mainmsg{
+    padding: 0 4rem 10rem;
+  }
+
+  
+  #quiz-what-pro-page-header-container-row{
+    margin-bottom: 5rem;
+  }
+
+
+
+  #qwp-unlimited-quizzits-content-box{
+    padding: 2.5rem;
+  }
+
+  #qwp-1000-quizzes-content-box{
+    padding: 2.5rem;
+  }
+
+  #qwp-1000-quizzes-content-box QWPTitleText{
+    font-size: 4.8rem;
+
+  }
+  
+  #qwp-1000-quizzes-content-box QWPDescriptionSubText{
+    font-size: 1.7rem;
+
+  }
+  
+  #qwp-unlimited-quizzits-content-box QWPTitleText{
+    font-size: 4.3rem;
+
+  }
+  
+  #qwp-unlimited-quizzits-content-box QWPDescriptionSubText{
+    font-size: 1.4rem;
+
+  }
+  
+
+  
+  #qwp-no-ads-title QWPTitleText{
+    font-size: 4.8rem;
+  }
+  
+  #qwp-no-ads-title QWPDescriptionSubText{
+    font-size: 1.7rem;
+  }
+  
+  #quiz-what-pro-page-no-ads-container-row{
+  height: 10rem;
+  }
+  
+  #quiz-what-pro-no-ads-image{
+    padding: 1.6rem;
+    height: 30rem;
+
+  
+  }
+
+  #qwp-description-no-ads{
+    padding-right: 4rem;
+  }
+  
+
+/* ----------------------*/
+
+
+
 
 
       /* Legal pages */
@@ -907,6 +1358,11 @@ margin-bottom: 7vh;
 
 
 }
+
+/* =======================================================
+                  MAXIMUM 320
+==========================================================
+*/
 
 /* Extra small devices (Smaller devices) */
 @media(max-width:320px){
@@ -1094,6 +1550,83 @@ margin-bottom: 7vh;
 
 
 /*---------------------------*/
+
+
+
+  /* Quiz What Pro page*/
+
+  #quiz-what-pro-page-quiz-what-title h1{
+    font-size: 3.5rem;
+  }
+
+  #quiz-what-pro-page-quiz-what-catch-line h4{
+    font-size: 2.3rem;
+  }
+  
+  .quizwhat-pro-header-mainmsg{
+    padding: 0 2rem 5rem;
+  }
+
+
+
+  #qwp-unlimited-quizzits-content-box{
+    padding: 1.0rem;
+  }
+
+  #qwp-1000-quizzes-content-box{
+    padding: 1.0rem;
+  }
+
+  #qwp-1000-quizzes-content-box QWPTitleText{
+    font-size: 3rem;
+
+  }
+  
+  #qwp-1000-quizzes-content-box QWPDescriptionSubText{
+    font-size: 1.8rem;
+
+  }
+  
+  #qwp-unlimited-quizzits-content-box QWPTitleText{
+    font-size: 2.5rem;
+
+  }
+  
+  #qwp-unlimited-quizzits-content-box QWPDescriptionSubText{
+    font-size: 1.5rem;
+
+  }
+
+
+  #qwp-no-ads-title QWPTitleText{
+    font-size: 3rem;
+  }
+  
+  #qwp-no-ads-title QWPDescriptionSubText{
+    font-size: 1.5rem;
+  }
+  
+  #quiz-what-pro-page-no-ads-container-row{
+  height: 15rem;
+  }
+  
+  #quiz-what-pro-no-ads-image{
+    padding: 0.5rem;
+    height: 20rem;
+
+  
+  }
+
+  #qwp-description-no-ads{
+    padding-right: 3rem;
+  }
+  
+  
+
+/* ----------------------*/
+
+
+
 
 
       /* Legal pages */

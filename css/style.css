@@ -31,6 +31,8 @@ Light BG color:     #ffffff
   --text-color-qwp-light:#FFFFFF;
   --text-color-qwp-dark:#212121;
   --text-color-qwp-accent:#f50d5a;
+  --bg-color-qwp: #2a051c;
+  --bg-color-qwp-accent:#2a051c;
 }
 
 h3 {
@@ -88,7 +90,7 @@ img{
 }
 
 .google-button-qw {
-  max-width: 20vh;
+  max-width: 20rem;
 }
 
 .word{
@@ -683,6 +685,7 @@ size */
 
 #license-image-notice-content-box-inner img{
 transition: transform .5s ease;
+height: 50rem;
 }
 
 #license-image-notice-content-box-inner:hover img{
@@ -880,27 +883,38 @@ transition: transform .5s ease;
   margin: 2rem 0;
 }
 
-/* PLACEHOLDER DELETE IT WHEN NOT NEEDED */
-#quiz-what-page-placeholder{
+
+
+
+
+
+
+
+/* =======================================================
+                      FAQ PAGE
+==========================================================
+*/
+
+#faq-body{
   background-color: var(--bg-color);
-  height: 70rem;
 }
 
-#under-construction-symbol{
+#faq-header{
+  background-color: var(--bg-color);
+  height: 40rem;
+  padding:10rem 3rem;
+  text-align: center;
+}
+
+#think-symbol{
   height: 10rem;
   margin-top: 5rem;
 }
 
-#quiz-what-page-placeholder {
-  padding:15rem 3rem;
-  text-align: center;
-}
-#quiz-what-page-placeholder h7{
+#faq-header h7{
   font-size: 4.5rem;
   font-weight: 700;
 }
-
-/* FAQ page */
 
 #faq-page{
   background-color: var(--bg-color);
@@ -918,9 +932,35 @@ transition: transform .5s ease;
   text-align: center;
 }
 
-/* DELETE WHEN NOT NEEDED */
-#faq-page-body{
+
+#faq-texts{
   background-color: var(--highlight-color);
+  padding: 3rem 10rem;
+
+}
+
+#faq-content-box-outer{
+  margin: 2rem 0;
+}
+
+#faq-content-box-inner-title h7{
+  color:var(--bg-color);
+  font-weight: 700;
+}
+
+
+#faq-content-box-inner-value h7{
+  color:var(--fg-color);
+}
+
+#faq-content-box-outer-contact{
+  margin: 0.3rem 2rem;
+
+}
+
+#faq-content-box-outer-contact-value{
+  margin: 0.3rem 0;
+
 }
 
 
@@ -1084,7 +1124,7 @@ QWTitleText{
 }
 
 #download-now-qw-text{
-  font-size: 8vh;
+  font-size: 8rem;
 }
 
 /* ------------------- */
@@ -1093,3 +1133,144 @@ QWTitleText{
                       QUIZ WHAT? PRO PRESENTATION PAGE
 ==========================================================
 */
+
+.quiz-what-pro-logo-presentation-page {
+  height: 27rem;
+
+}
+
+.quizwhat-pro-header-mainmsg{
+  padding: 0 20rem 10rem;
+}
+
+
+#quiz-what-pro-page-header-container-row{
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+#quiz-what-pro-page-header-accent-color{
+  background-color: var(--highlight-color);
+  height: 2.5rem;
+}
+
+.quiz-what-pro-logo-presentation-page {
+  height: 27rem;
+
+}
+
+.bg-color-qwp-accent{
+  background-color: var(--bg-color-qwp);
+}
+
+
+#quiz-what-pro-page-quiz-what-title{
+  text-align: center;
+  color: var(--text-color-qwp-light);
+}
+
+#quiz-what-pro-page-quiz-what-title h1{
+  font-size: 7rem;
+}
+
+#quiz-what-pro-page-quiz-what-catch-line{
+  text-align: center;
+  color: var(--text-color-qwp-light);
+}
+
+#quiz-what-pro-page-quiz-what-link-to-page-img{
+  text-align: center;
+}
+
+#quiz-what-pro-page-quiz-what-link-to-page-img img{
+  margin: 2rem 0;
+}
+
+#quiz-what-pro-1000-quizzes-bg-container{
+
+  background-image: url("../media/img/bg-1000-quiz.png");
+  background-repeat: no-repeat;
+  height: 200rem;
+  position: relative;
+}
+
+QWPDescriptionText{
+  font-size: 6rem;
+}
+
+QWPDescriptionSubText{
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+
+QWPTitleText{
+  font-size: 15rem;
+  font-weight: 800;
+}
+
+#qwp-1000-quizzes-content-box{
+  padding: 30rem 15rem;
+}
+
+#qwp-unlimited-quizzits-content-box{
+  padding-left: 35rem;
+  padding-right: 15rem;
+}
+
+#unlimited-quizzits-qwp{
+  padding: 10rem 0;
+}
+
+#quiz-what-pro-no-ads{
+  
+  background-color: var(--bg-color);
+  padding: 10rem 0;
+
+}
+
+
+#quiz-what-pro-page-no-ads-container-row{
+  height: 50rem;
+  display: flex;
+  align-items: center;
+    
+}
+
+#qwp-no-ads-content-box{
+  padding: 2rem 0;
+}
+
+
+
+
+#quiz-what-pro-no-ads-image{
+  padding: 6rem;
+  height: 60rem;
+}
+
+#qwp-description-no-ads{
+  padding-right: 7rem;
+}
+
+#qwp-download-link-cover{
+  height: 100%;
+  background-image: url("../media/img/qwp-hero.png");
+}
+
+#qwp-download-btm-headline{
+  padding-top:6rem;
+}
+
+#qwp-download-link{
+  height: 100rem;
+}
+#qwp-qr{
+  height:32rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+
+
+/*--------------------------------------------*/
